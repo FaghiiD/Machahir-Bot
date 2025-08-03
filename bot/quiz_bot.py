@@ -4,6 +4,7 @@ Enhanced Discord Quiz Bot with Wikipedia integration and fuzzy matching
 
 import discord
 from discord.ext import commands
+from discord import app_commands
 import asyncio
 import logging
 import random
@@ -307,6 +308,180 @@ class QuizBot(commands.Bot):
         embed.set_footer(text="Bot supports Arabic names and handles typos with fuzzy matching!")
         
         await ctx.send(embed=embed)
+
+    # Slash command definitions
+    @app_commands.command(name="quiz", description="Start an Arab celebrity quiz")
+    async def quiz_slash(self, interaction: discord.Interaction):
+        """Start a new quiz session via slash command"""
+        # Use interaction directly instead of converting to Context
+        if interaction.channel.id in self.active_quizzes:
+            await interaction.response.send_message("❌ A quiz is already active in this channel! Wait for it to finish.")
+            return
+        
+        await interaction.response.send_message("🎯 **Starting Arab Celebrity Quiz!**\nFetching a celebrity image...")
+        
+        try:
+            # Create a simple context-like object for the quiz game
+            class InteractionContext:
+                def __init__(self, interaction):
+                    self.interaction = interaction
+                    self.channel = interaction.channel
+                    self.author = interaction.user
+                    
+                async def send(self, content=None, embed=None, file=None):
+                    if self.interaction.response.is_done():
+                        return await self.interaction.followup.send(content=content, embed=embed, file=file)
+                    else:
+                        return await self.interaction.response.send_message(content=content, embed=embed, file=file)
+            
+            ctx = InteractionContext(interaction)
+            await self.quiz_game.start_quiz(ctx)
+            self.stats['quizzes_played'] += 1
+            
+        except Exception as e:
+            logger.error(f"Error starting quiz: {e}")
+            await interaction.followup.send("❌ Sorry, there was an error starting the quiz. Please try again later.")
+    
+    @app_commands.command(name="addcelebrity", description="Add a new celebrity to the database")
+    @app_commands.describe(celebrity_info="Format: name|alias1,alias2|arabic_name|category")
+    async def addcelebrity_slash(self, interaction: discord.Interaction, celebrity_info: str):
+        """Add a new celebrity via slash command"""
+        await interaction.response.defer()
+        
+        if not celebrity_info:
+            await interaction.followup.send("❌ Please provide celebrity information in the format: `name|alias1,alias2|arabic_name|category`")
+            return
+        
+        try:
+            parts = celebrity_info.split('|')
+            if len(parts) < 2:
+                await interaction.followup.send("❌ Invalid format. Use: `name|alias1,alias2|arabic_name|category`")
+                return
+            
+            name = parts[0].strip()
+            aliases = [alias.strip() for alias in parts[1].split(',')] if len(parts) > 1 else []
+            arabic_name = parts[2].strip() if len(parts) > 2 else ""
+            category = parts[3].strip() if len(parts) > 3 else "actor"
+            
+            # Check if celebrity already exists
+            existing = any(cel['name'].lower() == name.lower() for cel in self.celebrities['celebrities'])
+            if existing:
+                await interaction.followup.send(f"❌ Celebrity '{name}' already exists in the database.")
+                return
+            
+            # Try to fetch image from Wikipedia
+            await interaction.followup.send(f"🔍 Searching for '{name}' on Wikipedia...")
+            
+            celebrity_data = await self.wikipedia_service.get_celebrity_profile(name)
+            
+            if not celebrity_data or not celebrity_data.get('image_url'):
+                await interaction.followup.send(f"⚠️ Could not find image for '{name}' on Wikipedia. Adding without image.")
+                celebrity_data = {'name': name, 'image_url': None, 'description': ''}
+            
+            # Create celebrity entry
+            new_celebrity = {
+                'name': name,
+                'aliases': aliases,
+                'arabic_name': arabic_name,
+                'category': category,
+                'image_url': celebrity_data.get('image_url'),
+                'description': celebrity_data.get('description', ''),
+                'wikipedia_url': celebrity_data.get('wikipedia_url', ''),
+                'added_by': str(interaction.user),
+                'added_date': datetime.now().isoformat()
+            }
+            
+            # Add to database
+            self.celebrities['celebrities'].append(new_celebrity)
+            
+            # Save to file
+            self.save_celebrities()
+            
+            embed = discord.Embed(
+                title="✅ Celebrity Added Successfully!",
+                description=f"**{name}** has been added to the quiz database.",
+                color=0x00ff00
+            )
+            embed.add_field(name="Aliases", value=", ".join(aliases) if aliases else "None", inline=True)
+            embed.add_field(name="Arabic Name", value=arabic_name if arabic_name else "None", inline=True)
+            embed.add_field(name="Category", value=category, inline=True)
+            
+            if celebrity_data.get('image_url'):
+                embed.set_thumbnail(url=celebrity_data['image_url'])
+                embed.add_field(name="Image", value="✅ Found on Wikipedia", inline=False)
+            else:
+                embed.add_field(name="Image", value="❌ Not found", inline=False)
+            
+            await interaction.followup.send(embed=embed)
+            
+        except Exception as e:
+            logger.error(f"Error adding celebrity: {e}")
+            await interaction.followup.send("❌ Error adding celebrity. Please check the format and try again.")
+    
+    @app_commands.command(name="listcelebrities", description="List all celebrities in the database")
+    async def listcelebrities_slash(self, interaction: discord.Interaction):
+        """List celebrities via slash command"""
+        if not self.celebrities['celebrities']:
+            await interaction.response.send_message("📝 The celebrity database is empty. Use `/addcelebrity` to add some!")
+            return
+        
+        # Create paginated list
+        celebrities = self.celebrities['celebrities']
+        per_page = 10
+        pages = [celebrities[i:i + per_page] for i in range(0, len(celebrities), per_page)]
+        
+        # Send first page
+        embed = self.create_celebrity_list_embed(pages[0], 1, len(pages))
+        await interaction.response.send_message(embed=embed)
+    
+    @app_commands.command(name="stats", description="Show bot statistics")
+    async def stats_slash(self, interaction: discord.Interaction):
+        """Show stats via slash command"""
+        uptime = datetime.now() - self.stats['start_time']
+        
+        embed = discord.Embed(
+            title="📊 Bot Statistics",
+            color=0xe74c3c
+        )
+        
+        embed.add_field(name="Quizzes Played", value=self.stats['quizzes_played'], inline=True)
+        embed.add_field(name="Questions Answered", value=self.stats['questions_answered'], inline=True)
+        embed.add_field(name="Images Fetched", value=self.stats['images_fetched'], inline=True)
+        embed.add_field(name="Celebrities in DB", value=len(self.celebrities['celebrities']), inline=True)
+        embed.add_field(name="Active Quizzes", value=len(self.active_quizzes), inline=True)
+        embed.add_field(name="Uptime", value=str(uptime).split('.')[0], inline=True)
+        
+        await interaction.response.send_message(embed=embed)
+    
+    @app_commands.command(name="help", description="Show help information")
+    async def help_slash(self, interaction: discord.Interaction):
+        """Show help via slash command"""
+        embed = discord.Embed(
+            title="🎯 Arab Celebrity Quiz Bot Help",
+            description="Dynamic celebrity quiz with Wikipedia integration!",
+            color=0x9b59b6
+        )
+        
+        commands_info = [
+            ("🎲 `/quiz`", "Start a new celebrity quiz"),
+            ("➕ `/addcelebrity`", "Add celebrity: `name|alias1,alias2|arabic_name|category`"),
+            ("📋 `/listcelebrities`", "View all celebrities in database"),
+            ("📊 `/stats`", "Show bot statistics"),
+            ("❓ `/help`", "Show this help message")
+        ]
+        
+        for name, description in commands_info:
+            embed.add_field(name=name, value=description, inline=False)
+        
+        embed.add_field(
+            name="🎮 How to Play",
+            value="React with 🅰️🅱️🅨🅳 for multiple choice or type your answer!",
+            inline=False
+        )
+        
+        embed.set_footer(text="Bot supports Arabic names and handles typos with fuzzy matching!")
+        
+        await interaction.response.send_message(embed=embed)
 
     async def on_command_error(self, ctx, error):
         """Handle command errors"""
