@@ -1,0 +1,114 @@
+{
+  "celebrities": [
+    {
+      "name": "Omar Sharif",
+      "aliases": ["Omar El-Sharif", "Michel Demitri Shalhoub"],
+      "arabic_name": "عمر الشريف",
+      "category": "actor",
+      "image_url": null,
+      "description": "Egyptian actor who played prominent roles in British and American films",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Omar_Sharif",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Farid al-Atrash",
+      "aliases": ["Farid El Atrache", "Farid Alatrash"],
+      "arabic_name": "فريد الأطرش",
+      "category": "singer",
+      "image_url": null,
+      "description": "Syrian-Egyptian composer, singer and oud virtuoso",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Farid_al-Atrash",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Umm Kulthum",
+      "aliases": ["Oum Kalthoum", "Um Kulthum", "Kawkab al-Sharq"],
+      "arabic_name": "أم كلثوم",
+      "category": "singer",
+      "image_url": null,
+      "description": "Egyptian singer, songwriter, and film actress",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Umm_Kulthum",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Adel Imam",
+      "aliases": ["Adel Emam", "Al Zaeem"],
+      "arabic_name": "عادل إمام",
+      "category": "actor",
+      "image_url": null,
+      "description": "Egyptian comedy actor and film star",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Adel_Imam",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Fairuz",
+      "aliases": ["Fayrouz", "Nouhad Wadie Haddad"],
+      "arabic_name": "فيروز",
+      "category": "singer",
+      "image_url": null,
+      "description": "Lebanese singer and one of the most widely admired singers in the Arab world",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Fairuz",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Nancy Ajram",
+      "aliases": ["Nancy Nabil Ajram"],
+      "arabic_name": "نانسي نبيل عجرم",
+      "category": "singer",
+      "image_url": null,
+      "description": "Lebanese singer and one of the best-selling Middle Eastern music artists",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Nancy_Ajram",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Amr Diab",
+      "aliases": ["Amr Abdel Basset Abdel Azeez Diab"],
+      "arabic_name": "عمرو دياب",
+      "category": "singer",
+      "image_url": null,
+      "description": "Egyptian singer and composer, known as the Father of Mediterranean Music",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Amr_Diab",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Rami Malek",
+      "aliases": ["Rami Said Malek"],
+      "arabic_name": "رامي سعيد مالك",
+      "category": "actor",
+      "image_url": null,
+      "description": "American actor of Egyptian descent, known for Mr. Robot and Bohemian Rhapsody",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Rami_Malek",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Mohamed Salah",
+      "aliases": ["Mo Salah", "Mohamed Salah Hamed Mahrous Ghaly"],
+      "arabic_name": "محمد صلاح",
+      "category": "athlete",
+      "image_url": null,
+      "description": "Egyptian footballer who plays as a forward for Liverpool and Egypt national team",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mohamed_Salah",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Hakim Ziyech",
+      "aliases": ["Hakim Ziyach"],
+      "arabic_name": "حكيم زياش",
+      "category": "athlete",
+      "image_url": null,
+      "description": "Moroccan footballer who plays as an attacking midfielder or winger",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Hakim_Ziyech",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    }
+  ]
+}
