@@ -7,6 +7,8 @@ import json
 import asyncio
 import random
 from datetime import datetime
+import aiohttp
+from urllib.parse import quote
 
 # Load environment variables
 load_dotenv()
@@ -45,6 +47,55 @@ def load_celebrities():
 # Load celebrities data
 celebrities_data = load_celebrities()
 
+async def get_celebrity_image(celebrity_name):
+    """Fetch celebrity image from Wikipedia"""
+    try:
+        # Create session if needed
+        async with aiohttp.ClientSession() as session:
+            # Search for the celebrity page
+            search_url = "https://en.wikipedia.org/w/api.php"
+            search_params = {
+                "action": "query",
+                "format": "json",
+                "generator": "search",
+                "gsrsearch": celebrity_name,
+                "gsrlimit": 1,
+                "prop": "pageimages|extracts",
+                "pithumbsize": 400,
+                "exintro": True,
+                "exsentences": 1
+            }
+            
+            async with session.get(search_url, params=search_params) as response:
+                if response.status == 200:
+                    data = await response.json()
+                    if 'query' in data and 'pages' in data['query']:
+                        for page_id, page_data in data['query']['pages'].items():
+                            if 'thumbnail' in page_data:
+                                return page_data['thumbnail']['source']
+            
+            # If no image found, try direct page lookup
+            page_params = {
+                "action": "query",
+                "format": "json",
+                "titles": celebrity_name,
+                "prop": "pageimages",
+                "pithumbsize": 400
+            }
+            
+            async with session.get(search_url, params=page_params) as response:
+                if response.status == 200:
+                    data = await response.json()
+                    if 'query' in data and 'pages' in data['query']:
+                        for page_id, page_data in data['query']['pages'].items():
+                            if 'thumbnail' in page_data:
+                                return page_data['thumbnail']['source']
+                                
+    except Exception as e:
+        logger.error(f"Error fetching image for {celebrity_name}: {e}")
+    
+    return None
+
 @bot.event
 async def on_ready():
     logger.info(f'{bot.user} has connected to Discord!')
@@ -74,8 +125,16 @@ async def start_quiz(ctx):
         await ctx.send("❌ No celebrities in database. Use +addcelebrity to add some!")
         return
     
+    # Send loading message
+    loading_msg = await ctx.send("🔍 **Fetching celebrity image...**")
+    
     # Select random celebrity
     celebrity = random.choice(celebrities_data['celebrities'])
+    
+    # Try to get image from stored URL first, then fetch from Wikipedia
+    image_url = celebrity.get('image_url')
+    if not image_url:
+        image_url = await get_celebrity_image(celebrity['name'])
     
     # Mark channel as having active quiz
     active_quizzes[ctx.channel.id] = {
@@ -85,31 +144,34 @@ async def start_quiz(ctx):
     }
     
     embed = discord.Embed(
-        title="🎯 Celebrity Quiz!",
-        description=f"Who is this famous Arab celebrity?",
+        title="🎯 Who is this celebrity?",
+        description="Type the name of this famous Arab celebrity!",
         color=0x3498db
     )
     
-    # Add hints
-    hints = []
-    if celebrity.get('category'):
-        hints.append(f"**Category:** {celebrity['category']}")
-    if celebrity.get('description'):
-        hints.append(f"**Hint:** {celebrity['description'][:100]}...")
+    # Add image if found
+    if image_url:
+        embed.set_image(url=image_url)
+    else:
+        # If no image, show category as hint
+        if celebrity.get('category'):
+            embed.add_field(name="Category", value=celebrity['category'], inline=False)
+        embed.add_field(name="Note", value="Image not available", inline=False)
     
-    if hints:
-        embed.add_field(name="Hints", value="\n".join(hints), inline=False)
+    embed.add_field(name="How to answer", value="Type your answer in this chat!", inline=False)
+    embed.set_footer(text="You have 30 seconds to answer • Type the celebrity's name")
     
-    embed.add_field(name="How to answer", value="Type your answer in the chat!", inline=False)
-    embed.set_footer(text="Type the celebrity's name to answer • 30 seconds to answer")
+    # Update the loading message with the quiz
+    await loading_msg.edit(content="", embed=embed)
     
-    await ctx.send(embed=embed)
+    # Update stats
+    stats['quizzes_played'] += 1
     
     # Set timeout
     await asyncio.sleep(30)
     if ctx.channel.id in active_quizzes:
         correct_name = active_quizzes[ctx.channel.id]['celebrity']['name']
-        await ctx.send(f"⏰ Time's up! The answer was **{correct_name}**")
+        await ctx.send(f"⏰ **Time's up!** The answer was **{correct_name}**")
         del active_quizzes[ctx.channel.id]
 
 @bot.command(name='stats')
