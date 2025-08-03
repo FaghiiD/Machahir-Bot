@@ -75,7 +75,7 @@ class QuizBot(commands.Bot):
             logger.error(f"Error loading celebrities: {e}")
             return {"celebrities": []}
 
-    @commands.command(name="quiz", description="Start an Arab celebrity quiz")
+    @commands.command(name="quiz")
     async def start_quiz(self, ctx):
         """Start a new quiz session"""
         if ctx.channel.id in self.active_quizzes:
@@ -93,7 +93,7 @@ class QuizBot(commands.Bot):
             logger.error(f"Error starting quiz: {e}")
             await ctx.send("❌ Sorry, there was an error starting the quiz. Please try again later.")
 
-    @commands.command(name="addcelebrity", description="Add a new celebrity to the database")
+    @commands.command(name="addcelebrity")
     async def add_celebrity(self, ctx, *, celebrity_info: str):
         """Add a new celebrity to the database
         Format: name|alias1,alias2|arabic_name|category
@@ -177,7 +177,7 @@ class QuizBot(commands.Bot):
         except Exception as e:
             logger.error(f"Error saving celebrities: {e}")
 
-    @commands.command(name="listcelebrities", description="List all celebrities in the database")
+    @commands.command(name="listcelebrities")
     async def list_celebrities(self, ctx):
         """List all celebrities in the database"""
         if not self.celebrities['celebrities']:
@@ -258,7 +258,7 @@ class QuizBot(commands.Bot):
         embed.set_footer(text=f"Total celebrities: {len(self.celebrities['celebrities'])}")
         return embed
 
-    @commands.command(name="stats", description="Show bot statistics")
+    @commands.command(name="stats")
     async def show_stats(self, ctx):
         """Show bot statistics"""
         uptime = datetime.now() - self.stats['start_time']
@@ -277,8 +277,8 @@ class QuizBot(commands.Bot):
         
         await ctx.send(embed=embed)
 
-    @commands.command(name="help", description="Show help information")
-    async def help_command(self, ctx):
+    @commands.command(name="help")
+    async def show_help(self, ctx):
         """Show help information"""
         embed = discord.Embed(
             title="🎯 Arab Celebrity Quiz Bot Help",
@@ -306,6 +306,11 @@ class QuizBot(commands.Bot):
         embed.set_footer(text="Bot supports Arabic names and handles typos with fuzzy matching!")
         
         await ctx.send(embed=embed)
+
+    @commands.command(name="test")
+    async def test_command(self, ctx):
+        """Simple test command to verify bot is working"""
+        await ctx.send("✅ Bot is working! Prefix commands are active.")
 
     async def on_message(self, message):
         """Handle quiz answers and commands"""
