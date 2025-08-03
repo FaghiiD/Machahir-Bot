@@ -326,7 +326,8 @@ async def on_message(message):
             if quiz_data['attempts'] >= 3:
                 await message.add_reaction("❌")
                 await message.channel.send(f"❌ Sorry, the correct answer was **{celebrity['name']}**")
-                del active_quizzes[message.channel.id]
+                if message.channel.id in active_quizzes:
+                    del active_quizzes[message.channel.id]
             else:
                 await message.add_reaction("❌")
                 remaining = 3 - quiz_data['attempts']
