@@ -50,50 +50,66 @@ celebrities_data = load_celebrities()
 async def get_celebrity_image(celebrity_name):
     """Fetch celebrity image from Wikipedia"""
     try:
-        # Create session if needed
         async with aiohttp.ClientSession() as session:
-            # Search for the celebrity page
+            # Try direct page lookup first
             search_url = "https://en.wikipedia.org/w/api.php"
-            search_params = {
-                "action": "query",
-                "format": "json",
-                "generator": "search",
-                "gsrsearch": celebrity_name,
-                "gsrlimit": 1,
-                "prop": "pageimages|extracts",
-                "pithumbsize": 400,
-                "exintro": True,
-                "exsentences": 1
-            }
             
-            async with session.get(search_url, params=search_params) as response:
-                if response.status == 200:
-                    data = await response.json()
-                    if 'query' in data and 'pages' in data['query']:
-                        for page_id, page_data in data['query']['pages'].items():
-                            if 'thumbnail' in page_data:
-                                return page_data['thumbnail']['source']
-            
-            # If no image found, try direct page lookup
+            # Method 1: Direct title lookup
             page_params = {
                 "action": "query",
                 "format": "json",
                 "titles": celebrity_name,
                 "prop": "pageimages",
-                "pithumbsize": 400
+                "pithumbsize": "500"
             }
             
             async with session.get(search_url, params=page_params) as response:
                 if response.status == 200:
                     data = await response.json()
+                    logger.info(f"Direct lookup response for {celebrity_name}: {data}")
                     if 'query' in data and 'pages' in data['query']:
                         for page_id, page_data in data['query']['pages'].items():
-                            if 'thumbnail' in page_data:
+                            if page_id != '-1' and 'thumbnail' in page_data:
                                 return page_data['thumbnail']['source']
+            
+            # Method 2: Search and get page images
+            search_params = {
+                "action": "query",
+                "format": "json",
+                "list": "search",
+                "srsearch": celebrity_name,
+                "srlimit": "3"
+            }
+            
+            async with session.get(search_url, params=search_params) as response:
+                if response.status == 200:
+                    data = await response.json()
+                    if 'query' in data and 'search' in data['query']:
+                        for result in data['query']['search']:
+                            title = result['title']
+                            
+                            # Get image for this title
+                            image_params = {
+                                "action": "query",
+                                "format": "json",
+                                "titles": title,
+                                "prop": "pageimages",
+                                "pithumbsize": "500"
+                            }
+                            
+                            async with session.get(search_url, params=image_params) as img_response:
+                                if img_response.status == 200:
+                                    img_data = await img_response.json()
+                                    if 'query' in img_data and 'pages' in img_data['query']:
+                                        for page_id, page_data in img_data['query']['pages'].items():
+                                            if 'thumbnail' in page_data:
+                                                logger.info(f"Found image for {celebrity_name}: {page_data['thumbnail']['source']}")
+                                                return page_data['thumbnail']['source']
                                 
     except Exception as e:
         logger.error(f"Error fetching image for {celebrity_name}: {e}")
     
+    logger.warning(f"No image found for {celebrity_name}")
     return None
 
 @bot.event
