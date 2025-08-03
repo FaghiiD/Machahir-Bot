@@ -4,7 +4,6 @@ Enhanced Discord Quiz Bot with Wikipedia integration and fuzzy matching
 
 import discord
 from discord.ext import commands
-from discord import app_commands
 import asyncio
 import logging
 import random
@@ -25,7 +24,7 @@ class QuizBot(commands.Bot):
         intents.reactions = True
         
         super().__init__(
-            command_prefix='!',
+            command_prefix='+',
             intents=intents,
             help_command=None
         )
@@ -53,13 +52,7 @@ class QuizBot(commands.Bot):
     async def setup_hook(self):
         """Called when bot is starting up"""
         logger.info(f"Bot {self.user} is starting up...")
-        
-        # Sync slash commands
-        try:
-            synced = await self.tree.sync()
-            logger.info(f"Synced {len(synced)} slash commands")
-        except Exception as e:
-            logger.error(f"Failed to sync commands: {e}")
+        logger.info("Using prefix commands (+quiz, +addcelebrity, etc.)")
 
     async def on_ready(self):
         """Called when bot is ready"""
@@ -67,7 +60,7 @@ class QuizBot(commands.Bot):
         logger.info(f'Bot is in {len(self.guilds)} guilds')
         
         # Set bot status
-        activity = discord.Game(name="Arab Celebrity Quiz! Use /quiz to start")
+        activity = discord.Game(name="Arab Celebrity Quiz! Use +quiz to start")
         await self.change_presence(activity=activity)
 
     def load_celebrities(self):
@@ -82,7 +75,7 @@ class QuizBot(commands.Bot):
             logger.error(f"Error loading celebrities: {e}")
             return {"celebrities": []}
 
-    @commands.hybrid_command(name="quiz", description="Start an Arab celebrity quiz")
+    @commands.command(name="quiz", description="Start an Arab celebrity quiz")
     async def start_quiz(self, ctx):
         """Start a new quiz session"""
         if ctx.channel.id in self.active_quizzes:
@@ -100,7 +93,7 @@ class QuizBot(commands.Bot):
             logger.error(f"Error starting quiz: {e}")
             await ctx.send("❌ Sorry, there was an error starting the quiz. Please try again later.")
 
-    @commands.hybrid_command(name="addcelebrity", description="Add a new celebrity to the database")
+    @commands.command(name="addcelebrity", description="Add a new celebrity to the database")
     async def add_celebrity(self, ctx, *, celebrity_info: str):
         """Add a new celebrity to the database
         Format: name|alias1,alias2|arabic_name|category
@@ -184,7 +177,7 @@ class QuizBot(commands.Bot):
         except Exception as e:
             logger.error(f"Error saving celebrities: {e}")
 
-    @commands.hybrid_command(name="listcelebrities", description="List all celebrities in the database")
+    @commands.command(name="listcelebrities", description="List all celebrities in the database")
     async def list_celebrities(self, ctx):
         """List all celebrities in the database"""
         if not self.celebrities['celebrities']:
@@ -260,7 +253,7 @@ class QuizBot(commands.Bot):
         embed.set_footer(text=f"Total celebrities: {len(self.celebrities['celebrities'])}")
         return embed
 
-    @commands.hybrid_command(name="stats", description="Show bot statistics")
+    @commands.command(name="stats", description="Show bot statistics")
     async def show_stats(self, ctx):
         """Show bot statistics"""
         uptime = datetime.now() - self.stats['start_time']
@@ -279,7 +272,7 @@ class QuizBot(commands.Bot):
         
         await ctx.send(embed=embed)
 
-    @commands.hybrid_command(name="help", description="Show help information")
+    @commands.command(name="help", description="Show help information")
     async def help_command(self, ctx):
         """Show help information"""
         embed = discord.Embed(

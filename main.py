@@ -7,7 +7,7 @@ import asyncio
 import logging
 import os
 from dotenv import load_dotenv
-from bot.quiz_bot import QuizBot
+from bot.quiz_bot_prefix import QuizBot
 
 # Load environment variables
 load_dotenv()
