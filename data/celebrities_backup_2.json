@@ -1,0 +1,1547 @@
+{
+  "celebrities": [
+    {
+      "name": "Umm Kulthum",
+      "aliases": [
+        "Oum Kalthoum",
+        "Um Kulthum",
+        "Kawkab al-Sharq"
+      ],
+      "arabic_name": "أم كلثوم",
+      "category": "singer",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Umm_Kulthum4.jpg",
+      "description": "Egyptian singer, songwriter, and film actress",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Umm_Kulthum",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Fairuz",
+      "aliases": [
+        "Fayrouz",
+        "Nouhad Wadie Haddad"
+      ],
+      "arabic_name": "فيروز",
+      "category": "singer",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Fairuz_in_btd_concert_2001.jpg",
+      "description": "Lebanese singer and one of the most widely admired singers in the Arab world",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Fairuz",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Nancy Ajram",
+      "aliases": [
+        "Nancy Nabil Ajram"
+      ],
+      "arabic_name": "نانسي نبيل عجرم",
+      "category": "singer",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Nancy_Ajram_signing_ceremony.jpg",
+      "description": "Lebanese singer and one of the best-selling Middle Eastern music artists",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Nancy_Ajram",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Mohamed Salah",
+      "aliases": [
+        "Mo Salah",
+        "Mohamed Salah Hamed Mahrous Ghaly",
+        "Mohammed Salah",
+        "Mohammad Salah",
+        "محمد صلاح",
+        "محمد"
+      ],
+      "arabic_name": "محمد صلاح",
+      "category": "athlete",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Mohamed_Salah_2018.jpg",
+      "description": "Egyptian footballer who plays as a forward for Liverpool and Egypt national team",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mohamed_Salah",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Amal Clooney",
+      "aliases": [
+        "Amal Alamuddin"
+      ],
+      "arabic_name": "أمل علم الدين",
+      "category": "lawyer",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Amal_Clooney_2022_%28cropped%29.jpg",
+      "description": "Lebanese-British barrister and human rights lawyer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Amal_Clooney",
+      "added_by": "system",
+      "added_date": "2025-08-03T00:00:00"
+    },
+    {
+      "name": "Haifa Wehbe",
+      "aliases": [
+        "Haifa",
+        "Haifa Wahbi",
+        "Haifa Wahby",
+        "Haifaa Wahbi",
+        "Haifaa Wahby",
+        "Haifa Wehbi",
+        "هيفاء وهبي",
+        "هيفاء"
+      ],
+      "arabic_name": "هيفاء وهبي",
+      "category": "singer",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Haifa_Wehbe_%28cropped%29.jpg",
+      "description": "Lebanese singer and actress",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Haifa_Wehbe",
+      "added_by": "system",
+      "added_date": "2025-08-03T00:00:00"
+    },
+    {
+      "name": "Majida El Roumi",
+      "aliases": [
+        "Majida El-Roumi"
+      ],
+      "arabic_name": "ماجدة الرومي",
+      "category": "singer",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Majida_El_Roumi_in_a_portrait_from_1994.jpg",
+      "description": "Lebanese soprano singer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Majida_El_Roumi",
+      "added_by": "system",
+      "added_date": "2025-08-03T00:00:00"
+    },
+    {
+      "name": "Mohammed Abdu",
+      "aliases": [
+        "Mohammad Abdo"
+      ],
+      "arabic_name": "محمد عبده",
+      "category": "singer",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Mohammed_Abdu.jpg",
+      "description": "Saudi singer known as Artist of the Arabs",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mohammed_Abdu",
+      "added_by": "system",
+      "added_date": "2025-08-03T00:00:00"
+    },
+    {
+      "name": "Abdul Majeed Abdullah",
+      "aliases": [
+        "Abdulmajeed Abdullah"
+      ],
+      "arabic_name": "عبد المجيد عبد الله",
+      "category": "singer",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Abdul_Majid_Abdullah.jpg",
+      "description": "Saudi singer and composer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Abdul_Majeed_Abdullah",
+      "added_by": "system",
+      "added_date": "2025-08-03T00:00:00"
+    },
+    {
+      "name": "Hussain Al Jassmi",
+      "aliases": [
+        "Hussein Al Jasmi"
+      ],
+      "arabic_name": "حسين الجسمي",
+      "category": "singer",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Hussain_Al_Jassmi_Profile_Picture.jpg",
+      "description": "Emirati singer and composer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Hussain_Al_Jassmi",
+      "added_by": "system",
+      "added_date": "2025-08-03T00:00:00"
+    },
+    {
+      "name": "Cheb Mami",
+      "aliases": [
+        "Ahmed Khelifati Mohamed"
+      ],
+      "arabic_name": "الشاب مامي",
+      "category": "singer",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Cheb_Mami_en_1986.jpg",
+      "description": "Algerian raï singer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Cheb_Mami",
+      "added_by": "system",
+      "added_date": "2025-08-03T00:00:00"
+    },
+    {
+      "name": "Souad Massi",
+      "aliases": [
+        "Souad Massi Goucem"
+      ],
+      "arabic_name": "سعاد ماسي",
+      "category": "singer",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Souad_Massi_TFF_01.JPG",
+      "description": "Algerian singer-songwriter",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Souad_Massi",
+      "added_by": "system",
+      "added_date": "2025-08-03T00:00:00"
+    },
+    {
+      "name": "Yassine Bounou",
+      "aliases": [
+        "Bono"
+      ],
+      "arabic_name": "ياسين بونو",
+      "category": "athlete",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Yassine_bounou_Interview_2023.jpg",
+      "description": "Moroccan footballer and goalkeeper",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Yassine_Bounou",
+      "added_by": "system",
+      "added_date": "2025-08-03T00:00:00"
+    },
+    {
+      "name": "Youssef En-Nesyri",
+      "aliases": [
+        "Youssef En-Nesyri"
+      ],
+      "arabic_name": "يوسف النصيري",
+      "category": "athlete",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Ennesyri.jpg",
+      "description": "Moroccan footballer and striker",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Youssef_En-Nesyri",
+      "added_by": "system",
+      "added_date": "2025-08-03T00:00:00"
+    },
+    {
+      "name": "Wahbi Khazri",
+      "aliases": [
+        "Wahbi Khazri"
+      ],
+      "arabic_name": "وهبي خزري",
+      "category": "athlete",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Wahbi_Khazri.jpg",
+      "description": "Tunisian footballer and attacking midfielder",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Wahbi_Khazri",
+      "added_by": "system",
+      "added_date": "2025-08-03T00:00:00"
+    },
+    {
+      "name": "Mahmoud El Khatib",
+      "aliases": [
+        "Mahmoud El-Khatib"
+      ],
+      "arabic_name": "محمود الخطيب",
+      "category": "athlete",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Mahmoud_El-Khatib_%281977%29.jpg",
+      "description": "Egyptian former footballer and Al Ahly president",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mahmoud_El_Khatib",
+      "added_by": "system",
+      "added_date": "2025-08-03T00:00:00"
+    },
+    {
+      "name": "Ali Farag",
+      "aliases": [
+        "Ali Farag"
+      ],
+      "arabic_name": "علي فراج",
+      "category": "athlete",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Ali_Farag_at_the_2023-24_PSA_World_Tour_Finals-06.jpg",
+      "description": "Egyptian squash player and world champion",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ali_Farag",
+      "added_by": "system",
+      "added_date": "2025-08-03T00:00:00"
+    },
+    {
+      "name": "Naguib Mahfouz",
+      "aliases": [
+        "Najib Mahfuz"
+      ],
+      "arabic_name": "نجيب محفوظ",
+      "category": "writer",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Nagib_Mahfouz.jpg",
+      "description": "Egyptian writer and Nobel Prize laureate in Literature",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Naguib_Mahfouz",
+      "added_by": "system",
+      "added_date": "2025-08-03T00:00:00"
+    },
+    {
+      "name": "Nawal El Saadawi",
+      "aliases": [
+        "Nawal El-Saadawi"
+      ],
+      "arabic_name": "نوال السعداوي",
+      "category": "writer",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Nawal_el_Saadawi_01.JPG",
+      "description": "Egyptian feminist writer, activist and physician",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Nawal_El_Saadawi",
+      "added_by": "system",
+      "added_date": "2025-08-03T00:00:00"
+    },
+    {
+      "name": "Homi K. Bhabha",
+      "aliases": [
+        "Homi Bhabha"
+      ],
+      "arabic_name": "هومي بابا",
+      "category": "academic",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Homi_K._Bhabha-cropd.jpg",
+      "description": "Indian-British scholar and critical theorist",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Homi_K._Bhabha",
+      "added_by": "system",
+      "added_date": "2025-08-03T00:00:00"
+    },
+    {
+      "name": "Hassan Fathy",
+      "aliases": [
+        "Hassan Fathy"
+      ],
+      "arabic_name": "حسن فتحي",
+      "category": "architect",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Hassan_Fathy_in_Cairo_%28cropped%29.jpg",
+      "description": "Egyptian architect known for his work with the poor",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Hassan_Fathy",
+      "added_by": "system",
+      "added_date": "2025-08-03T00:00:00"
+    },
+    {
+      "name": "Elie Saab",
+      "aliases": [
+        "Elie Saab"
+      ],
+      "arabic_name": "إيلي صعب",
+      "category": "designer",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Elie_Saab_at_his_Spring_2012_Fashion_Show.jpg",
+      "description": "Lebanese fashion designer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Elie_Saab",
+      "added_by": "system",
+      "added_date": "2025-08-03T00:00:00"
+    },
+    {
+      "name": "Zinedine Zidane",
+      "aliases": [
+        "Zizou",
+        "Zidane"
+      ],
+      "arabic_name": "زين الدين زيدان",
+      "category": "sports",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Zinedine_Zidane_by_Tasnim_03.jpg",
+      "description": "Former French professional footballer and current manager of Real Madrid. Born to Algerian parents.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Zinedine_Zidane",
+      "added_by": "Bot",
+      "added_date": "2025-08-04T02:26:27.686Z"
+    },
+    {
+      "name": "Amr Diab",
+      "aliases": [
+        "Amr Diab",
+        "El Hadaba"
+      ],
+      "arabic_name": "عمرو دياب",
+      "category": "music",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Amr_Diab_%28AUC2025%29.jpg/960px-Amr_Diab_%28AUC2025%29.jpg",
+      "description": "Egyptian singer, composer, and actor. Known as the 'Father of Mediterranean Music'.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Amr_Diab",
+      "added_by": "Bot",
+      "added_date": "2025-08-04T02:26:27.686Z"
+    },
+    {
+      "name": "Tamer Hosny",
+      "aliases": [
+        "Tamer Hosny",
+        "Tamer"
+      ],
+      "arabic_name": "تامر حسني",
+      "category": "music",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Tamer_Hosny%27s_NYE_Concert_%282025%29_%28Enhanced_Version%29.png/960px-Tamer_Hosny%27s_NYE_Concert_%282025%29_%28Enhanced_Version%29.png",
+      "description": "Egyptian singer, actor, composer, and songwriter. Known for his romantic songs.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Tamer_Hosny",
+      "added_by": "Bot",
+      "added_date": "2025-08-04T02:26:27.686Z"
+    },
+    {
+      "name": "Ahmed Helmy",
+      "aliases": [
+        "Ahmed Helmy",
+        "Helmy"
+      ],
+      "arabic_name": "أحمد حلمي",
+      "category": "actor",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Ahmed_Helmy_in_Sawiris_2018.jpg",
+      "description": "Egyptian actor, comedian, and television presenter. Known for his comedic roles.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ahmed_Helmy",
+      "added_by": "Bot",
+      "added_date": "2025-08-04T02:26:27.686Z"
+    },
+    {
+      "name": "Samira Said",
+      "aliases": [
+        "Samira Said",
+        "Samira"
+      ],
+      "arabic_name": "سميرة سعيد",
+      "category": "music",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Beirut_International_Awards_Festivals_%28BIAF%29_honored_Samira_Said_in_2011.jpg",
+      "description": "Moroccan-Egyptian singer. Known as the 'Queen of Moroccan Music'.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Samira_Said",
+      "added_by": "Bot",
+      "added_date": "2025-08-04T02:26:27.686Z"
+    },
+    {
+      "name": "Saad Lamjarred",
+      "aliases": [
+        "Saad Lamjarred",
+        "Saad"
+      ],
+      "arabic_name": "سعد لمجرد",
+      "category": "music",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/15-Dec-17_2-54-49_PM.png",
+      "description": "Moroccan singer and actor. Known for his modern Arabic pop music.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Saad_Lamjarred",
+      "added_by": "Bot",
+      "added_date": "2025-08-04T02:26:27.686Z"
+    },
+    {
+      "name": "Hicham El Guerrouj",
+      "aliases": [
+        "Hicham El Guerrouj",
+        "El Guerrouj"
+      ],
+      "arabic_name": "هشام الكروج",
+      "category": "sports",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Hicham_El_Guerrouj_cropped.jpg",
+      "description": "Moroccan former middle-distance runner. Olympic gold medalist and world record holder.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Hicham_El_Guerrouj",
+      "added_by": "Bot",
+      "added_date": "2025-08-04T02:26:27.686Z"
+    },
+    {
+      "name": "Hasna Benhassi",
+      "aliases": [
+        "Hasna Benhassi",
+        "Benhassi"
+      ],
+      "arabic_name": "حسنة بنحسي",
+      "category": "sports",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Hasna_Benhassi_2008.jpg",
+      "description": "Moroccan middle-distance runner. Olympic medalist in the 800 meters.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Hasna_Benhassi",
+      "added_by": "Bot",
+      "added_date": "2025-08-04T02:26:27.686Z"
+    },
+    {
+      "name": "Laila Lalami",
+      "aliases": [
+        "Laila Lalami",
+        "Lalami"
+      ],
+      "arabic_name": "ليلى العلمي",
+      "category": "writer",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Laila_Lalami.jpg/960px-Laila_Lalami.jpg",
+      "description": "Moroccan-American novelist and essayist. Author of 'The Moor's Account'.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Laila_Lalami",
+      "added_by": "Bot",
+      "added_date": "2025-08-04T02:26:27.686Z"
+    },
+    {
+      "name": "Tahar Ben Jelloun",
+      "aliases": [
+        "Tahar Ben Jelloun",
+        "Ben Jelloun"
+      ],
+      "arabic_name": "طاهر بن جلون",
+      "category": "writer",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Tahar_Ben_Jelloun_par_Claude_Truong-Ngoc_sept_2013.jpg/960px-Tahar_Ben_Jelloun_par_Claude_Truong-Ngoc_sept_2013.jpg",
+      "description": "Moroccan writer. Winner of the Prix Goncourt and author of 'The Sacred Night'.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Tahar_Ben_Jelloun",
+      "added_by": "Bot",
+      "added_date": "2025-08-04T02:26:27.686Z"
+    },
+    {
+      "name": "Faouzi Bensaïdi",
+      "aliases": [
+        "Faouzi Bensaïdi",
+        "Bensaïdi"
+      ],
+      "arabic_name": "فوزي بنسعيدي",
+      "category": "filmmaker",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/FAOUZI_BENDAIDI.jpg",
+      "description": "Moroccan film director, actor, and screenwriter. Known for 'A Thousand Months'.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Faouzi_Bensaïdi",
+      "added_by": "Bot",
+      "added_date": "2025-08-04T02:26:27.686Z"
+    },
+    {
+      "name": "Mouna Fettou",
+      "aliases": [
+        "Mouna Fettou",
+        "Fettou"
+      ],
+      "arabic_name": "مونة فتاح",
+      "category": "actor",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/%D9%85%D9%86%D9%89_%D9%81%D8%AA%D9%88.jpg/800px-%D9%85%D9%86%D9%89_%D9%81%D8%AA%D9%88.jpg",
+      "description": "Moroccan actress. Known for her roles in Moroccan cinema and television.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mouna_Fettou",
+      "added_by": "Bot",
+      "added_date": "2025-08-04T02:26:27.686Z"
+    },
+    {
+      "name": "Hassan El Fad",
+      "aliases": [
+        "Hassan El Fad",
+        "El Fad"
+      ],
+      "arabic_name": "حسن الفد",
+      "category": "actor",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Hassen_el_Fad_2.jpg/960px-Hassen_el_Fad_2.jpg",
+      "description": "Moroccan actor and comedian. Known for his comedic roles in Moroccan cinema.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Hassan_El_Fad",
+      "added_by": "Bot",
+      "added_date": "2025-08-04T02:26:27.686Z"
+    },
+    {
+      "name": "Hicham Arazi",
+      "aliases": [
+        "Hicham Arazi",
+        "Arazi"
+      ],
+      "arabic_name": "هشام عرازي",
+      "category": "sports",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Hicham_Arazi.jpg",
+      "description": "Moroccan former professional tennis player. Reached the quarterfinals of Wimbledon.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Hicham_Arazi",
+      "added_by": "Bot",
+      "added_date": "2025-08-04T02:26:27.686Z"
+    },
+    {
+      "name": "Younes El Aynaoui",
+      "aliases": [
+        "Younes El Aynaoui",
+        "El Aynaoui"
+      ],
+      "arabic_name": "يونس العيناوي",
+      "category": "sports",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Aynaoui.jpg",
+      "description": "Moroccan former professional tennis player. Reached the quarterfinals of the Australian Open.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Younes_El_Aynaoui",
+      "added_by": "Bot",
+      "added_date": "2025-08-04T02:26:27.686Z"
+    },
+    {
+      "name": "Karim Alami",
+      "aliases": [
+        "Karim Alami",
+        "Alami"
+      ],
+      "arabic_name": "كريم العلمي",
+      "category": "sports",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Alami.jpg",
+      "description": "Moroccan former professional tennis player. Won several ATP doubles titles.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Karim_Alami",
+      "added_by": "Bot",
+      "added_date": "2025-08-04T02:26:27.686Z"
+    },
+    {
+      "name": "Ibn Battuta",
+      "aliases": [
+        "Ibn Battuta",
+        "Battuta"
+      ],
+      "arabic_name": "ابن بطوطة",
+      "category": "explorer",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Handmade_oil_painting_reproduction_of_Ibn_Battuta_in_Egypt%2C_a_painting_by_Hippolyte_Leon_Benett..jpg",
+      "description": "Moroccan explorer and scholar. Traveled extensively throughout the Islamic world.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ibn_Battuta",
+      "added_by": "Bot",
+      "added_date": "2025-08-04T02:26:27.686Z"
+    },
+    {
+      "name": "Ibn Khaldun",
+      "aliases": [
+        "Ibn Khaldun",
+        "Khaldun"
+      ],
+      "arabic_name": "ابن خلدون",
+      "category": "scholar",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Bust_of_Ibn_Khaldun_%28Casbah_of_Bejaia%2C_Algeria%29.jpg/960px-Bust_of_Ibn_Khaldun_%28Casbah_of_Bejaia%2C_Algeria%29.jpg",
+      "description": "Arab historian, philosopher, and sociologist. Author of 'The Muqaddimah'.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ibn_Khaldun",
+      "added_by": "Bot",
+      "added_date": "2025-08-04T02:26:27.686Z"
+    },
+    {
+      "name": "Kadim Al Sahir",
+      "aliases": [
+        "Kadim Al Sahir",
+        "Kadim",
+        "Caesar of Arabic Song"
+      ],
+      "arabic_name": "كاظم الساهر",
+      "category": "singer",
+      "description": "Iraqi singer and composer known as the 'Caesar of Arabic Song'",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kadim_Al_Sahir",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Ragheb Alama",
+      "aliases": [
+        "Ragheb Alama",
+        "Ragheb"
+      ],
+      "arabic_name": "راغب علامة",
+      "category": "singer",
+      "description": "Lebanese singer, composer, and television personality",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ragheb_Alama",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Wael Kfoury",
+      "aliases": [
+        "Wael Kfoury",
+        "Wael"
+      ],
+      "arabic_name": "وائل كفوري",
+      "category": "singer",
+      "description": "Lebanese singer and composer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Wael_Kfoury",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Diana Haddad",
+      "aliases": [
+        "Diana Haddad",
+        "Diana"
+      ],
+      "arabic_name": "ديانا حداد",
+      "category": "singer",
+      "description": "Lebanese singer and actress",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Diana_Haddad",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Carole Samaha",
+      "aliases": [
+        "Carole Samaha",
+        "Carole"
+      ],
+      "arabic_name": "كارول سماحة",
+      "category": "singer",
+      "description": "Lebanese singer and actress",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Carole_Samaha",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Myriam Fares",
+      "aliases": [
+        "Myriam Fares",
+        "Myriam"
+      ],
+      "arabic_name": "ميريام فارس",
+      "category": "singer",
+      "description": "Lebanese singer and dancer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Myriam_Fares",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Assi El Hallani",
+      "aliases": [
+        "Assi El Hallani",
+        "Assi"
+      ],
+      "arabic_name": "عاصي الحلاني",
+      "category": "singer",
+      "description": "Lebanese singer and composer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Assi_El_Hallani",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Julia Boutros",
+      "aliases": [
+        "Julia Boutros",
+        "Julia"
+      ],
+      "arabic_name": "جوليا بطرس",
+      "category": "singer",
+      "description": "Lebanese singer and activist",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Julia_Boutros",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Marcel Khalife",
+      "aliases": [
+        "Marcel Khalife",
+        "Marcel"
+      ],
+      "arabic_name": "مارسيل خليفة",
+      "category": "singer",
+      "description": "Lebanese musician, composer, and oud player",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Marcel_Khalife",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Ziad Rahbani",
+      "aliases": [
+        "Ziad Rahbani",
+        "Ziad"
+      ],
+      "arabic_name": "زياد الرحباني",
+      "category": "composer",
+      "description": "Lebanese composer, pianist, and playwright",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ziad_Rahbani",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Sabah",
+      "aliases": [
+        "Sabah",
+        "Jeanette Gergis Al-Feghali"
+      ],
+      "arabic_name": "صباح",
+      "category": "singer",
+      "description": "Lebanese singer and actress, known as 'Al Shahroura'",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sabah_(singer)",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Wadih El Safi",
+      "aliases": [
+        "Wadih El Safi",
+        "Wadih"
+      ],
+      "arabic_name": "وديع الصافي",
+      "category": "singer",
+      "description": "Lebanese singer and composer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Wadih_El_Safi",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Najwa Karam",
+      "aliases": [
+        "Najwa Karam",
+        "Najwa"
+      ],
+      "arabic_name": "نجوى كرم",
+      "category": "singer",
+      "description": "Lebanese singer known as 'The Sun of Arabic Song'",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Najwa_Karam",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Melhem Zein",
+      "aliases": [
+        "Melhem Zein",
+        "Melhem"
+      ],
+      "arabic_name": "ملحم زين",
+      "category": "singer",
+      "description": "Lebanese singer and composer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Melhem_Zein",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Ahmad Kaabour",
+      "aliases": [
+        "Ahmad Kaabour",
+        "Ahmad"
+      ],
+      "arabic_name": "أحمد قعبور",
+      "category": "singer",
+      "description": "Lebanese singer and composer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ahmad_Kaabour",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Hiba Tawaji",
+      "aliases": [
+        "Hiba Tawaji",
+        "Hiba"
+      ],
+      "arabic_name": "هبة طوجي",
+      "category": "singer",
+      "description": "Lebanese singer and actress",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Hiba_Tawaji",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Nadine Labaki",
+      "aliases": [
+        "Nadine Labaki",
+        "Nadine"
+      ],
+      "arabic_name": "نادين لبكي",
+      "category": "director",
+      "description": "Lebanese actress, director, and screenwriter",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Nadine_Labaki",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Wael Jassar",
+      "aliases": [
+        "Wael Jassar",
+        "Wael"
+      ],
+      "arabic_name": "وائل جسار",
+      "category": "singer",
+      "description": "Lebanese singer and composer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Wael_Jassar",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Fares Karam",
+      "aliases": [
+        "Fares Karam",
+        "Fares"
+      ],
+      "arabic_name": "فارس كرم",
+      "category": "singer",
+      "description": "Lebanese singer and composer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Fares_Karam",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Joseph Attieh",
+      "aliases": [
+        "Joseph Attieh",
+        "Joseph"
+      ],
+      "arabic_name": "جوزيف عطية",
+      "category": "singer",
+      "description": "Lebanese singer and composer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Joseph_Attieh",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Maya Diab",
+      "aliases": [
+        "Maya Diab",
+        "Maya"
+      ],
+      "arabic_name": "مايا دياب",
+      "category": "singer",
+      "description": "Lebanese singer and actress",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Maya_Diab",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Nadine Nassib Njeim",
+      "aliases": [
+        "Nadine Nassib Njeim",
+        "Nadine"
+      ],
+      "arabic_name": "نادين نسيب نجيم",
+      "category": "actress",
+      "description": "Lebanese actress and model",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Nadine_Nassib_Njeim",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Nadine Wilson",
+      "aliases": [
+        "Nadine Wilson",
+        "Nadine"
+      ],
+      "arabic_name": "نادين ويلسون",
+      "category": "actress",
+      "description": "Lebanese actress and model",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Nadine_Wilson",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Nadine Al Rassi",
+      "aliases": [
+        "Nadine Al Rassi",
+        "Nadine Al-Rassi",
+        "Nadine Rassi",
+        "Nadine"
+      ],
+      "arabic_name": "نادين الراسي",
+      "category": "actress",
+      "description": "Lebanese actress and model",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Nadine_Al_Rassi",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Aseel Omran",
+      "aliases": [
+        "Aseel Omran",
+        "Aseel"
+      ],
+      "arabic_name": "أسيل عمران",
+      "category": "singer",
+      "description": "Saudi singer and actress",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Aseel_Omran",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Rashed Al-Majed",
+      "aliases": [
+        "Rashed Al-Majed",
+        "Rashed"
+      ],
+      "arabic_name": "راشد الماجد",
+      "category": "singer",
+      "description": "Saudi singer and composer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Rashed_Al-Majed",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Khalid Abdulrahman",
+      "aliases": [
+        "Khalid Abdulrahman",
+        "Khalid"
+      ],
+      "arabic_name": "خالد عبد الرحمن",
+      "category": "singer",
+      "description": "Saudi singer and composer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Khalid_Abdulrahman",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Diana Karazon",
+      "aliases": [
+        "Diana Karazon",
+        "Diana"
+      ],
+      "arabic_name": "ديانا كرزون",
+      "category": "singer",
+      "description": "Jordanian singer and actress",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Diana_Karazon",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Saad Lamjarred",
+      "aliases": [
+        "Saad Lamjarred",
+        "Saad",
+        "Lamjarred"
+      ],
+      "arabic_name": "سعد لمجرد",
+      "category": "singer",
+      "description": "Moroccan singer and actor",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Saad_Lamjarred",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Hicham El Guerrouj",
+      "aliases": [
+        "Hicham El Guerrouj",
+        "Hicham",
+        "El Guerrouj"
+      ],
+      "arabic_name": "هشام الكروج",
+      "category": "athlete",
+      "description": "Moroccan middle-distance runner, Olympic gold medalist",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Hicham_El_Guerrouj",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Hasna Benhassi",
+      "aliases": [
+        "Hasna Benhassi",
+        "Hasna",
+        "Benhassi"
+      ],
+      "arabic_name": "حسنة بنحسي",
+      "category": "athlete",
+      "description": "Moroccan middle-distance runner, Olympic medalist",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Hasna_Benhassi",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Laila Lalami",
+      "aliases": [
+        "Laila Lalami",
+        "Laila",
+        "Lalami"
+      ],
+      "arabic_name": "ليلى العلمي",
+      "category": "writer",
+      "description": "Moroccan-American novelist and essayist",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Laila_Lalami",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Tahar Ben Jelloun",
+      "aliases": [
+        "Tahar Ben Jelloun",
+        "Tahar",
+        "Ben Jelloun"
+      ],
+      "arabic_name": "طاهر بن جلون",
+      "category": "writer",
+      "description": "Moroccan-French writer and poet",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Tahar_Ben_Jelloun",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Faouzi Bensaïdi",
+      "aliases": [
+        "Faouzi Bensaïdi",
+        "Faouzi",
+        "Bensaïdi"
+      ],
+      "arabic_name": "فوزي بنسعيدي",
+      "category": "actor",
+      "description": "Moroccan actor and filmmaker",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Faouzi_Bensaïdi",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Mouna Fettou",
+      "aliases": [
+        "Mouna Fettou",
+        "Mouna",
+        "Fettou"
+      ],
+      "arabic_name": "منى فتاح",
+      "category": "actress",
+      "description": "Moroccan actress and model",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mouna_Fettou",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Hassan El Fad",
+      "aliases": [
+        "Hassan El Fad",
+        "Hassan",
+        "El Fad"
+      ],
+      "arabic_name": "حسن الفد",
+      "category": "actor",
+      "description": "Moroccan actor and comedian",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Hassan_El_Fad",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Hicham Arazi",
+      "aliases": [
+        "Hicham Arazi",
+        "Hicham",
+        "Arazi"
+      ],
+      "arabic_name": "هشام عرازي",
+      "category": "athlete",
+      "description": "Moroccan tennis player",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Hicham_Arazi",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Younes El Aynaoui",
+      "aliases": [
+        "Younes El Aynaoui",
+        "Younes",
+        "El Aynaoui"
+      ],
+      "arabic_name": "يونس العيناوي",
+      "category": "athlete",
+      "description": "Moroccan tennis player",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Younes_El_Aynaoui",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Karim Alami",
+      "aliases": [
+        "Karim Alami",
+        "Karim",
+        "Alami"
+      ],
+      "arabic_name": "كريم العلمي",
+      "category": "athlete",
+      "description": "Moroccan tennis player",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Karim_Alami",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Ibn Battuta",
+      "aliases": [
+        "Ibn Battuta",
+        "Battuta"
+      ],
+      "arabic_name": "ابن بطوطة",
+      "category": "explorer",
+      "description": "Medieval Moroccan explorer and scholar",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ibn_Battuta",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Ibn Khaldun",
+      "aliases": [
+        "Ibn Khaldun",
+        "Khaldun"
+      ],
+      "arabic_name": "ابن خلدون",
+      "category": "scholar",
+      "description": "Medieval Moroccan historian and philosopher",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ibn_Khaldun",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Fatima Mernissi",
+      "aliases": [
+        "Fatima Mernissi",
+        "Fatima",
+        "Mernissi"
+      ],
+      "arabic_name": "فاطمة المرنيسي",
+      "category": "writer",
+      "description": "Moroccan feminist writer and sociologist",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Fatima_Mernissi",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Leila Slimani",
+      "aliases": [
+        "Leila Slimani",
+        "Leila",
+        "Slimani"
+      ],
+      "arabic_name": "ليلى سليماني",
+      "category": "writer",
+      "description": "Moroccan-French writer and journalist",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Leila_Slimani",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Noureddine Ayouch",
+      "aliases": [
+        "Noureddine Ayouch",
+        "Noureddine",
+        "Ayouch"
+      ],
+      "arabic_name": "نور الدين أيوش",
+      "category": "filmmaker",
+      "description": "Moroccan filmmaker and producer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Noureddine_Ayouch",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Laila Marrakchi",
+      "aliases": [
+        "Laila Marrakchi",
+        "Laila",
+        "Marrakchi"
+      ],
+      "arabic_name": "ليلى مراكشي",
+      "category": "filmmaker",
+      "description": "Moroccan filmmaker and director",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Laila_Marrakchi",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Hassan II",
+      "aliases": [
+        "Hassan II",
+        "King Hassan II",
+        "Hassan"
+      ],
+      "arabic_name": "الحسن الثاني",
+      "category": "royalty",
+      "description": "King of Morocco from 1961 to 1999",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Hassan_II_of_Morocco",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Mohammed VI",
+      "aliases": [
+        "Mohammed VI",
+        "King Mohammed VI",
+        "Mohammed"
+      ],
+      "arabic_name": "محمد السادس",
+      "category": "royalty",
+      "description": "Current King of Morocco since 1999",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mohammed_VI_of_Morocco",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Lalla Salma",
+      "aliases": [
+        "Lalla Salma",
+        "Princess Lalla Salma",
+        "Salma"
+      ],
+      "arabic_name": "لالة سلمى",
+      "category": "royalty",
+      "description": "Former Princess Consort of Morocco",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Lalla_Salma",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Ahmed Ezz",
+      "aliases": [
+        "Ahmed Ezz",
+        "Ahmed",
+        "Ezz"
+      ],
+      "arabic_name": "أحمد عز",
+      "category": "actor",
+      "description": "Egyptian actor and businessman",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ahmed_Ezz_(actor)",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Youssra",
+      "aliases": [
+        "Youssra",
+        "Yousra"
+      ],
+      "arabic_name": "يسرا",
+      "category": "actress",
+      "description": "Egyptian actress and singer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Youssra",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Taim Hassan",
+      "aliases": [
+        "Taim Hassan",
+        "Taim",
+        "Hassan"
+      ],
+      "arabic_name": "تيم حسن",
+      "category": "actor",
+      "description": "Syrian actor",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Taim_Hassan",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Sherine Abdel-Wahab",
+      "aliases": [
+        "Sherine Abdel-Wahab",
+        "Sherine",
+        "Abdel-Wahab"
+      ],
+      "arabic_name": "شيرين عبد الوهاب",
+      "category": "singer",
+      "description": "Egyptian singer and actress",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sherine_Abdel-Wahab",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Mohamed Ramadan",
+      "aliases": [
+        "Mohamed Ramadan",
+        "Mohamed",
+        "Ramadan"
+      ],
+      "arabic_name": "محمد رمضان",
+      "category": "singer",
+      "description": "Egyptian singer and actor",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mohamed_Ramadan",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Elissa",
+      "aliases": [
+        "Elissa",
+        "Elisa"
+      ],
+      "arabic_name": "إليسا",
+      "category": "singer",
+      "description": "Lebanese singer and actress",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Elissa_(singer)",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Fadl Shaker",
+      "aliases": [
+        "Fadl Shaker",
+        "Fadl",
+        "Shaker"
+      ],
+      "arabic_name": "فضل شاكر",
+      "category": "singer",
+      "description": "Lebanese singer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Fadl_Shaker",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Walid Tawfik",
+      "aliases": [
+        "Walid Tawfik",
+        "Walid",
+        "Tawfik"
+      ],
+      "arabic_name": "وليد توفيق",
+      "category": "singer",
+      "description": "Egyptian singer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Walid_Tawfik",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Rima Khcheich",
+      "aliases": [
+        "Rima Khcheich",
+        "Rima",
+        "Khcheich"
+      ],
+      "arabic_name": "ريما خشي",
+      "category": "singer",
+      "description": "Lebanese singer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Rima_Khcheich",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Tania Saleh",
+      "aliases": [
+        "Tania Saleh",
+        "Tania",
+        "Saleh"
+      ],
+      "arabic_name": "تانيا صالح",
+      "category": "singer",
+      "description": "Lebanese singer and songwriter",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Tania_Saleh",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Yara",
+      "aliases": [
+        "Yara",
+        "Yara Sabri"
+      ],
+      "arabic_name": "يارا",
+      "category": "singer",
+      "description": "Lebanese singer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Yara_(singer)",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Rasha Rizk",
+      "aliases": [
+        "Rasha Rizk",
+        "Rasha",
+        "Rizk"
+      ],
+      "arabic_name": "راشا رزق",
+      "category": "singer",
+      "description": "Egyptian singer and actress",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Rasha_Rizk",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Ghassan Saliba",
+      "aliases": [
+        "Ghassan Saliba",
+        "Ghassan",
+        "Saliba"
+      ],
+      "arabic_name": "غسان صليبا",
+      "category": "singer",
+      "description": "Lebanese singer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ghassan_Saliba",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Ziad Doueiri",
+      "aliases": [
+        "Ziad Doueiri",
+        "Ziad",
+        "Doueiri"
+      ],
+      "arabic_name": "زياد دويري",
+      "category": "director",
+      "description": "Lebanese filmmaker and director",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ziad_Doueiri",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Tony Hanna",
+      "aliases": [
+        "Tony Hanna",
+        "Tony",
+        "Hanna"
+      ],
+      "arabic_name": "توني حنا",
+      "category": "singer",
+      "description": "Lebanese singer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Tony_Hanna",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Rami Ayach",
+      "aliases": [
+        "Rami Ayach",
+        "Rami",
+        "Ayach"
+      ],
+      "arabic_name": "رامي عياش",
+      "category": "singer",
+      "description": "Lebanese singer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Rami_Ayach",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Ahlam",
+      "aliases": [
+        "Ahlam",
+        "Ahlam Al Shamsi"
+      ],
+      "arabic_name": "أحلام",
+      "category": "singer",
+      "description": "Emirati singer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ahlam_(singer)",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Balqees",
+      "aliases": [
+        "Balqees",
+        "Balqees Fathi"
+      ],
+      "arabic_name": "بلقيس",
+      "category": "singer",
+      "description": "Yemeni singer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Balqees_(singer)",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Abdel Majeed Abdullah",
+      "aliases": [
+        "Abdel Majeed Abdullah",
+        "Abdel Majeed",
+        "Abdullah"
+      ],
+      "arabic_name": "عبد المجيد عبد الله",
+      "category": "singer",
+      "description": "Saudi singer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Abdel_Majeed_Abdullah",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Mashael Al Arasi",
+      "aliases": [
+        "Mashael Al Arasi",
+        "Mashael",
+        "Al Arasi"
+      ],
+      "arabic_name": "مشاعل العراسي",
+      "category": "singer",
+      "description": "Saudi singer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mashael_Al_Arasi",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Dalia Mubarak",
+      "aliases": [
+        "Dalia Mubarak",
+        "Dalia",
+        "Mubarak"
+      ],
+      "arabic_name": "داليا مبارك",
+      "category": "singer",
+      "description": "Emirati singer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Dalia_Mubarak",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Abdullah Al Rowaished",
+      "aliases": [
+        "Abdullah Al Rowaished",
+        "Abdullah",
+        "Al Rowaished"
+      ],
+      "arabic_name": "عبد الله الرويشد",
+      "category": "singer",
+      "description": "Kuwaiti singer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Abdullah_Al_Rowaished",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Nawal Al Kuwaitia",
+      "aliases": [
+        "Nawal Al Kuwaitia",
+        "Nawal",
+        "Al Kuwaitia"
+      ],
+      "arabic_name": "نوال الكويتية",
+      "category": "singer",
+      "description": "Kuwaiti singer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Nawal_Al_Kuwaitia",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Omar Al Abdallat",
+      "aliases": [
+        "Omar Al Abdallat",
+        "Omar",
+        "Al Abdallat"
+      ],
+      "arabic_name": "عمر العبداللات",
+      "category": "singer",
+      "description": "Jordanian singer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Omar_Al_Abdallat",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    },
+    {
+      "name": "Fayez Al-Sayegh",
+      "aliases": [
+        "Fayez Al-Sayegh",
+        "Fayez",
+        "Al-Sayegh"
+      ],
+      "arabic_name": "فايز الصايغ",
+      "category": "singer",
+      "description": "Kuwaiti singer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Fayez_Al-Sayegh",
+      "added_by": "system",
+      "added_date": "2025-01-01T00:00:00"
+    }
+  ]
+}

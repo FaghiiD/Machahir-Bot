@@ -1,0 +1,102 @@
+2025-08-03 15:28:15,099 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-08-03 15:28:15,100 - __main__ - INFO - Starting Discord Quiz Bot...
+2025-08-03 15:28:15,100 - discord.client - INFO - logging in using static token
+2025-08-03 15:28:15,226 - __main__ - ERROR - Error starting bot: Improper token has been passed.
+2025-08-03 15:28:15,253 - asyncio - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x7f92dd449240>, 70231.108152841)])']
+connector: <aiohttp.connector.TCPConnector object at 0x7f92dd482150>
+2025-08-03 15:28:29,209 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-08-03 15:28:29,209 - __main__ - INFO - Starting Discord Quiz Bot...
+2025-08-03 15:28:29,209 - discord.client - INFO - logging in using static token
+2025-08-03 15:28:29,377 - __main__ - ERROR - Error starting bot: Improper token has been passed.
+2025-08-03 15:28:29,407 - asyncio - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x7f59023707c0>, 70245.25939241)])']
+connector: <aiohttp.connector.TCPConnector object at 0x7f5902378450>
+2025-08-03 16:31:26,364 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-08-03 16:31:26,366 - __main__ - INFO - Starting Discord Quiz Bot...
+2025-08-03 16:31:26,367 - discord.client - INFO - logging in using static token
+2025-08-03 16:31:26,364 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-08-03 16:31:26,368 - __main__ - INFO - Starting Discord Quiz Bot...
+2025-08-03 16:31:26,368 - discord.client - INFO - logging in using static token
+2025-08-03 16:31:26,524 - __main__ - ERROR - Error starting bot: Improper token has been passed.
+2025-08-03 16:31:26,524 - __main__ - ERROR - Error starting bot: Improper token has been passed.
+2025-08-03 16:31:26,543 - asyncio - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x7fe6db5c47c0>, 2149.340383567)])']
+connector: <aiohttp.connector.TCPConnector object at 0x7fe6db5d0110>
+2025-08-03 16:31:26,569 - asyncio - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x7fb2e6fd87c0>, 2149.340473327)])']
+connector: <aiohttp.connector.TCPConnector object at 0x7fb2e6fe0950>
+2025-08-03 16:36:25,877 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-08-03 16:36:25,878 - __main__ - INFO - Starting Discord Quiz Bot...
+2025-08-03 16:36:25,878 - discord.client - INFO - logging in using static token
+2025-08-03 16:36:26,285 - bot.quiz_bot - INFO - Bot Machahir#7861 is starting up...
+2025-08-03 16:36:26,433 - bot.quiz_bot - INFO - Synced 0 slash commands
+2025-08-03 16:36:26,871 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-08-03 16:36:26,872 - __main__ - INFO - Starting Discord Quiz Bot...
+2025-08-03 16:36:26,872 - discord.client - INFO - logging in using static token
+2025-08-03 16:36:27,185 - bot.quiz_bot - INFO - Bot Machahir#7861 is starting up...
+2025-08-03 16:36:27,770 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: b4ad434e7e283c0948faac91a7dc5d5b).
+2025-08-03 16:36:29,773 - bot.quiz_bot - INFO - Machahir#7861 has connected to Discord!
+2025-08-03 16:36:29,773 - bot.quiz_bot - INFO - Bot is in 0 guilds
+2025-08-03 16:37:26,436 - bot.quiz_bot - INFO - Synced 0 slash commands
+2025-08-03 16:37:26,747 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: a45dcb00430e3cf07daf361ea519e5c8).
+2025-08-03 16:37:28,749 - bot.quiz_bot - INFO - Machahir#7861 has connected to Discord!
+2025-08-03 16:37:28,749 - bot.quiz_bot - INFO - Bot is in 0 guilds
+2025-08-03 16:40:05,371 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-08-03 16:40:05,371 - __main__ - INFO - Starting Discord Quiz Bot...
+2025-08-03 16:40:05,371 - discord.client - INFO - logging in using static token
+2025-08-03 16:40:05,378 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-08-03 16:40:05,378 - __main__ - INFO - Starting Discord Quiz Bot...
+2025-08-03 16:40:05,379 - discord.client - INFO - logging in using static token
+2025-08-03 16:40:05,740 - bot.quiz_bot - INFO - Bot Machahir#7861 is starting up...
+2025-08-03 16:40:05,875 - bot.quiz_bot - INFO - Synced 0 slash commands
+2025-08-03 16:40:06,104 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 9a793e75033b2b2477afe185f6f01d13).
+2025-08-03 16:40:07,133 - bot.quiz_bot - INFO - Bot Machahir#7861 is starting up...
+2025-08-03 16:40:08,109 - bot.quiz_bot - INFO - Machahir#7861 has connected to Discord!
+2025-08-03 16:40:08,109 - bot.quiz_bot - INFO - Bot is in 1 guilds
+2025-08-03 16:41:05,912 - bot.quiz_bot - INFO - Synced 0 slash commands
+2025-08-03 16:41:06,220 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 5886922fc209f99995a4e721c71ef8d9).
+2025-08-03 16:41:08,226 - bot.quiz_bot - INFO - Machahir#7861 has connected to Discord!
+2025-08-03 16:41:08,226 - bot.quiz_bot - INFO - Bot is in 1 guilds
+2025-08-03 16:42:47,635 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-08-03 16:42:47,642 - __main__ - INFO - Starting Discord Quiz Bot...
+2025-08-03 16:42:47,643 - discord.client - INFO - logging in using static token
+2025-08-03 16:42:47,988 - bot.quiz_bot - INFO - Bot Machahir#7861 is starting up...
+2025-08-03 16:42:48,340 - bot.quiz_bot - INFO - Synced 5 slash commands
+2025-08-03 16:42:48,539 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 11efdcd6ade8a32d3dc6bbfdddf5b9de).
+2025-08-03 16:42:50,560 - bot.quiz_bot - INFO - Machahir#7861 has connected to Discord!
+2025-08-03 16:42:50,560 - bot.quiz_bot - INFO - Bot is in 1 guilds
+2025-08-03 16:43:42,010 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-08-03 16:43:42,011 - __main__ - INFO - Starting Discord Quiz Bot...
+2025-08-03 16:43:42,011 - discord.client - INFO - logging in using static token
+2025-08-03 16:43:42,419 - bot.quiz_bot - INFO - Bot Machahir#7861 is starting up...
+2025-08-03 16:43:42,626 - bot.quiz_bot - INFO - Synced 0 slash commands
+2025-08-03 16:43:42,862 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: f7c1fdba1d6ed05e9f5af18653cfc9ef).
+2025-08-03 16:43:44,865 - bot.quiz_bot - INFO - Machahir#7861 has connected to Discord!
+2025-08-03 16:43:44,865 - bot.quiz_bot - INFO - Bot is in 1 guilds
+2025-08-03 16:48:47,917 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-08-03 16:48:47,919 - __main__ - INFO - Starting Discord Quiz Bot...
+2025-08-03 16:48:47,919 - discord.client - INFO - logging in using static token
+2025-08-03 16:48:48,254 - bot.quiz_bot_prefix - INFO - Bot Machahir#7861 is starting up...
+2025-08-03 16:48:48,254 - bot.quiz_bot_prefix - INFO - Using prefix commands (+quiz, +addcelebrity, etc.)
+2025-08-03 16:48:48,499 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 74748e833f7f9da38684b75c57731f32).
+2025-08-03 16:48:50,505 - bot.quiz_bot_prefix - INFO - Machahir#7861 has connected to Discord!
+2025-08-03 16:48:50,505 - bot.quiz_bot_prefix - INFO - Bot is in 1 guilds
+2025-08-03 16:53:53,737 - discord.ext.commands.bot - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "quiz" is not found
+2025-08-03 16:53:58,141 - discord.ext.commands.bot - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "stats" is not found
+2025-08-03 16:54:08,572 - discord.ext.commands.bot - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "help" is not found
+2025-08-03 16:56:23,439 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-08-03 16:56:23,441 - __main__ - INFO - Starting Discord Quiz Bot...
+2025-08-03 16:56:23,441 - discord.client - INFO - logging in using static token
+2025-08-03 16:56:23,887 - bot.quiz_bot_prefix - INFO - Bot Machahir#7861 is starting up...
+2025-08-03 16:56:23,887 - bot.quiz_bot_prefix - INFO - Using prefix commands (+quiz, +addcelebrity, etc.)
+2025-08-03 16:56:24,090 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 6e30de2429028f294ab180257deae728).
+2025-08-03 16:56:26,102 - bot.quiz_bot_prefix - INFO - Machahir#7861 has connected to Discord!
+2025-08-03 16:56:26,103 - bot.quiz_bot_prefix - INFO - Bot is in 1 guilds
+2025-08-03 16:56:59,654 - discord.ext.commands.bot - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "test" is not found
+2025-08-03 16:57:06,168 - discord.ext.commands.bot - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "quiz" is not found

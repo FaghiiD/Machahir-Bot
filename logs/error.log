@@ -1,0 +1,86 @@
+{"code":"TokenInvalid","level":"error","message":"Startup error: An invalid token was provided.","service":"arab-celebrity-quiz-bot","stack":"Error [TokenInvalid]: An invalid token was provided.\n    at WebSocketManager.connect (C:\\Users\\user\\Downloads\\MachaHir\\node_modules\\discord.js\\src\\client\\websocket\\WebSocketManager.js:139:26)\n    at QuizBot.login (C:\\Users\\user\\Downloads\\MachaHir\\node_modules\\discord.js\\src\\client\\Client.js:229:21)\n    at startBot (C:\\Users\\user\\Downloads\\MachaHir\\start.js:73:19)","timestamp":"2025-08-04 00:50:59"}
+{"code":"TokenInvalid","level":"error","message":"Startup error: An invalid token was provided.","service":"arab-celebrity-quiz-bot","stack":"Error [TokenInvalid]: An invalid token was provided.\n    at WebSocketManager.connect (C:\\Users\\user\\Downloads\\MachaHir\\node_modules\\discord.js\\src\\client\\websocket\\WebSocketManager.js:139:26)\n    at QuizBot.login (C:\\Users\\user\\Downloads\\MachaHir\\node_modules\\discord.js\\src\\client\\Client.js:229:21)\n    at startBot (C:\\Users\\user\\Downloads\\MachaHir\\start.js:73:19)","timestamp":"2025-08-04 00:52:03"}
+{"level":"error","message":"Error downloading image for Leila Slimani: Request failed with status code 404","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-04 03:04:47"}
+{"level":"error","message":"خطأ في إرسال صورة الاختبار: Request failed with status code 404","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-04 03:04:47"}
+{"level":"error","message":"Error downloading image for Faouzi Bensaïdi: Request failed with status code 404","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-04 03:10:53"}
+{"level":"error","message":"خطأ في إرسال صورة الاختبار: Request failed with status code 404","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-04 03:10:53"}
+{"level":"error","message":"Error downloading image for Mohammed VI: Request failed with status code 404","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-04 03:14:54"}
+{"level":"error","message":"خطأ في إرسال صورة الاختبار: Request failed with status code 404","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-04 03:14:54"}
+{"level":"error","message":"Error downloading image for Marouane Chamakh: Request failed with status code 404","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-04 03:15:20"}
+{"level":"error","message":"خطأ في إرسال صورة الاختبار: Request failed with status code 404","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-04 03:15:20"}
+{"level":"error","message":"Error processing image: Input buffer contains unsupported image format","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-04 03:15:44"}
+{"level":"error","message":"Error processing image: Input buffer contains unsupported image format","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-04 23:26:55"}
+{"level":"error","message":"Google fetch error: Request failed with status code 403","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:10:00"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:10:01"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:41:36"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:42:18"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:43:58"}
+{"level":"error","message":"Google fetch error: Request failed with status code 403","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:45:49"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:45:50"}
+{"level":"error","message":"Google fetch error: Request failed with status code 403","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:45:54"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:45:55"}
+{"level":"error","message":"Google fetch error: Request failed with status code 403","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:45:57"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:45:57"}
+{"level":"error","message":"Google fetch error: Request failed with status code 403","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:46:02"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:46:03"}
+{"level":"error","message":"Google fetch error: Request failed with status code 403","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:46:42"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:46:42"}
+{"level":"error","message":"Google fetch error: Request failed with status code 403","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:49:59"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:50:00"}
+{"level":"error","message":"Google fetch error: Request failed with status code 403","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:50:19"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:50:20"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:51:12"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:53:48"}
+{"level":"error","message":"Google fetch error: Request failed with status code 403","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:57:19"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:57:20"}
+{"level":"error","message":"Google fetch error: Request failed with status code 403","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:57:22"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:57:23"}
+{"level":"error","message":"Google fetch error: Request failed with status code 403","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:58:43"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:58:44"}
+{"level":"error","message":"Google fetch error: Request failed with status code 403","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:58:45"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:58:46"}
+{"level":"error","message":"Google fetch error: Request failed with status code 403","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:59:49"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:59:50"}
+{"level":"error","message":"Google fetch error: Request failed with status code 403","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:59:51"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:59:52"}
+{"level":"error","message":"Google fetch error: Request failed with status code 403","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:59:53"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:59:54"}
+{"level":"error","message":"Google fetch error: Request failed with status code 403","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:59:56"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:59:57"}
+{"level":"error","message":"Google fetch error: Request failed with status code 403","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:59:58"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 02:59:59"}
+{"level":"error","message":"Google fetch error: Request failed with status code 403","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:00:00"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:00:01"}
+{"level":"error","message":"Google fetch error: Request failed with status code 403","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:00:03"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:00:04"}
+{"level":"error","message":"Google fetch error: Request failed with status code 403","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:00:05"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:00:06"}
+{"level":"error","message":"Google fetch error: Request failed with status code 403","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:00:08"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:00:09"}
+{"level":"error","message":"Google fetch error: Request failed with status code 403","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:00:10"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:00:11"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:01:00"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:04:00"}
+{"level":"error","message":"Google fetch error: Request failed with status code 403","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:05:01"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:05:02"}
+{"level":"error","message":"Google fetch error: Request failed with status code 403","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:05:03"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:05:04"}
+{"level":"error","message":"Google fetch error: Request failed with status code 403","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:05:05"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:05:06"}
+{"level":"error","message":"Google fetch error: Request failed with status code 403","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:05:06"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:05:07"}
+{"level":"error","message":"Google fetch error: Request failed with status code 403","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:05:08"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:05:09"}
+{"level":"error","message":"Google fetch error: Request failed with status code 403","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:05:10"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:05:11"}
+{"level":"error","message":"Google fetch error: Request failed with status code 403","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:05:11"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:05:12"}
+{"level":"error","message":"Google fetch error: Request failed with status code 403","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:05:13"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:05:14"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:08:47"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:09:19"}
+{"level":"error","message":"Facebook fetch error: Request failed with status code 400","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-05 03:16:57"}
+{"level":"error","message":"خطأ في عرض قائمة المشاهير: Cannot read properties of undefined (reading 'length')","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-06 02:47:42"}
+{"level":"error","message":"خطأ في بدء الاختبار: لا توجد مشاهير متاحة في قاعدة البيانات","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-06 02:48:05"}
+{"level":"error","message":"Error in imagecache command: this.clearCache is not a function","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-10 02:12:44"}
+{"level":"error","message":"Error in imagesources command: this.enableSource is not a function","service":"arab-celebrity-quiz-bot","timestamp":"2025-08-10 02:13:30"}
